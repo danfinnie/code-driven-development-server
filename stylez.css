@@ -1,4 +1,4 @@
-body { 
+body {
 	font: 1em/1.4 Helvetica, arial, sans-serif;
 	color: #333;
 }
@@ -7,7 +7,7 @@ margin: 0;
 padding: 0;
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
-	box-sizing: border-box;  
+	box-sizing: border-box;
 }
 
 a {
@@ -19,7 +19,7 @@ color: #333;
 	margin: 2em auto;
 	overflow: hidden;
 	position: relative;
-	
+
 }
 #test, #code {
 	width: 100%;
@@ -27,8 +27,8 @@ color: #333;
 	font-family: helvetica, arial, sans-serif;
 	padding: 0.5em 1em;
 	color: #666;
-	
-	
+
+
 }
 #go {
 	width: 100%;
@@ -38,7 +38,7 @@ background-color: #215E21;
 border: none;
 border-radius: 5px;
 color: #fefefe;
-cursor: pointer;	
+cursor: pointer;
 
 }
 #go:hover {
@@ -53,4 +53,8 @@ background-color: #238E23;
 
 form {
 	margin-top: 4em;
+}
+
+#use-example {
+  float: right;
 }
