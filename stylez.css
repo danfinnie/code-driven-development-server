@@ -1,0 +1,56 @@
+body { 
+	font: 1em/1.4 Helvetica, arial, sans-serif;
+	color: #333;
+}
+* {
+margin: 0;
+padding: 0;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;  
+}
+
+a {
+color: #333;
+}
+
+.wrapper {
+	width: 800px;
+	margin: 2em auto;
+	overflow: hidden;
+	position: relative;
+	
+}
+#test, #code {
+	width: 100%;
+	min-height: 300px;
+	font-family: helvetica, arial, sans-serif;
+	padding: 0.5em 1em;
+	color: #666;
+	
+	
+}
+#go {
+	width: 100%;
+	margin: 1.5em 0;
+	padding: 1em;
+background-color: #215E21;
+border: none;
+border-radius: 5px;
+color: #fefefe;
+cursor: pointer;	
+
+}
+#go:hover {
+background-color: #238E23;
+}
+
+
+
+#test, #code, #go {
+	float: left;
+}
+
+form {
+	margin-top: 4em;
+}
