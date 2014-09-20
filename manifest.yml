@@ -3,3 +3,4 @@ applications:
 - name: code-driven-development
   host: code-driven-development
   memory: 1G
+  command: 'unicorn -p $VCAP_APP_PORT'
